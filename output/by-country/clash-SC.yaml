@@ -5,6 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
+  type: vless
+  server: 104.21.55.123
+  port: 443
+  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: restless-boat-ebf2.moha102030.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: restless-boat-ebf2.moha102030.workers.dev
+- name: 🇸🇨 SC 02 - xiaohe
   type: vmess
   server: 156.226.183.181
   port: 54321
@@ -14,17 +28,143 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇨 SC 03 - xiaohe
+  type: vless
+  server: 104.21.88.201
+  port: 443
+  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: app-q0zc4t.user-4gfyh5.workers.dev
+  network: ws
+  ws-opts:
+    path: /cmh
+    headers:
+      Host: app-q0zc4t.user-4gfyh5.workers.dev
+- name: 🇸🇨 SC 04 - xiaohe
+  type: vless
+  server: 104.21.78.9
+  port: 443
+  uuid: a8890c1b-3622-3106-c4be-d8671be32d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: summer-meadow-af5b.woowoorrrkk.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: summer-meadow-af5b.woowoorrrkk.workers.dev
+- name: 🇸🇨 SC 05 - xiaohe
+  type: vmess
+  server: 156.226.183.181
+  port: 54321
+  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇨 SC 06 - xiaohe
+  type: vless
+  server: 172.67.214.25
+  port: 2053
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: INDEX.Arcane509.Workers.DEV
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: index.arcane509.workers.dev
+- name: 🇸🇨 SC 07 - xiaohe
+  type: vless
+  server: 45.130.125.96
+  port: 443
+  uuid: 28607fa7-db30-47d6-942a-f5744e4be9ad
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: dfsuporte.garena.com.ex33r.eu.cc
+  network: ws
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: dfsuporte.garena.com.ex33r.eu.cc
+- name: 🇸🇨 SC 08 - xiaohe
+  type: vless
+  server: 104.16.72.30
+  port: 443
+  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xstack.mahanfixe.workers.dev
+  network: ws
+  ws-opts:
+    path: /xiron
+    headers:
+      Host: xstack.mahanfixe.workers.dev
+- name: 🇸🇨 SC 09 - xiaohe
+  type: vless
+  server: 172.67.152.162
+  port: 443
+  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: app-q0zc4t.user-4gfyh5.workers.dev
+  network: ws
+  ws-opts:
+    path: /cmh
+    headers:
+      Host: app-q0zc4t.user-4gfyh5.workers.dev
+- name: 🇸🇨 SC 10 - xiaohe
+  type: vless
+  server: 185.193.29.123
+  port: 443
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: notls.lukongtou.eu.org
+  network: ws
+  ws-opts:
+    path: Telegram-WangCai2🇨🇳
+    headers:
+      Host: notls.lukongtou.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇸🇨 SC 01 - xiaohe
+  - 🇸🇨 SC 02 - xiaohe
+  - 🇸🇨 SC 03 - xiaohe
+  - 🇸🇨 SC 04 - xiaohe
+  - 🇸🇨 SC 05 - xiaohe
+  - 🇸🇨 SC 06 - xiaohe
+  - 🇸🇨 SC 07 - xiaohe
+  - 🇸🇨 SC 08 - xiaohe
+  - 🇸🇨 SC 09 - xiaohe
+  - 🇸🇨 SC 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 SC 01 - xiaohe
+  - 🇸🇨 SC 02 - xiaohe
+  - 🇸🇨 SC 03 - xiaohe
+  - 🇸🇨 SC 04 - xiaohe
+  - 🇸🇨 SC 05 - xiaohe
+  - 🇸🇨 SC 06 - xiaohe
+  - 🇸🇨 SC 07 - xiaohe
+  - 🇸🇨 SC 08 - xiaohe
+  - 🇸🇨 SC 09 - xiaohe
+  - 🇸🇨 SC 10 - xiaohe
 rules:
 - MATCH,PROXIES
