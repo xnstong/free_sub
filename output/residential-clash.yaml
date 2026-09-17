@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   type: vless
-  server: cf.9999669.xyz
+  server: 104.18.38.47
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /?ed=2560
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   type: vmess
   server: 82259754d625.oylfmxz.cn
@@ -36,9 +36,9 @@ proxies:
       Host: 82259754d625.oylfmxz.cn
 - name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
   type: vless
-  server: 60.248.219.78
+  server: 60.248.219.53
   port: 443
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -47,27 +47,26 @@ proxies:
   ws-opts:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: ty986gfazs.cainiaohub.xyz
-- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+      Host: 60.248.219.53
+- name: 🇬🇧 英国 (United Kingdom) 04 (家宽) - xiaohe
   type: vless
-  server: 172.64.53.87
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 198.12.145.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
+      Host: vms.lifetime61.workers.dev
+- name: 🇺🇸 美国 (United States) 05 (家宽) - xiaohe
   type: ss
-  server: 61.231.19.116
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  server: 23.252.104.131
+  port: 54321
+  cipher: aes-256-gcm
+  password: Proxy2024
   udp: true
 - name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
   type: ss
@@ -78,21 +77,20 @@ proxies:
   udp: true
 - name: 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
   type: vless
-  server: 104.19.215.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.64.88.251
+  port: 8880
+  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: patient-cake-39c7.44-e7a.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
   type: vless
-  server: 104.18.38.47
+  server: 104.18.42.54
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -114,15 +112,48 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: 7dba81fc3a0b.oylfmxz.cn
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
-      Host: ''
-- name: 🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe
+      Host: 7dba81fc3a0b.oylfmxz.cn
+- name: 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - xiaohe
+  type: ss
+  server: r3mrcg001286ek2.cybervena.com
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
   type: vless
-  server: 104.18.42.54
+  server: 172.67.217.240
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🇹🇼 中国台湾 (Taiwan) 12 (家宽) - xiaohe
+  type: vless
+  server: hinet1.2yly.com
+  port: 24215
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 13 (家宽) - xiaohe
+  type: vless
+  server: 172.64.53.194
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -131,16 +162,9 @@ proxies:
   servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇺🇸 美国 (United States) 11 (家宽) - xiaohe
-  type: ss
-  server: 23.252.104.131
-  port: 54321
-  cipher: aes-256-gcm
-  password: Proxy2024
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -149,14 +173,16 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 04 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 05 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 11 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 12 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 13 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -165,13 +191,15 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 04 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 05 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 11 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 12 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 13 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
