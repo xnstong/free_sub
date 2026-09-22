@@ -4,29 +4,26 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇷 BR 01 - xiaohe
+- name: 🇱🇰 LK 01 - xiaohe
   type: vless
-  server: 35.199.90.53
-  port: 443
-  uuid: e9c2ed7f-79ab-40a8-8910-24468f5da712
+  server: 140.245.102.107
+  port: 119
+  uuid: a5da154b-4632-4fc4-8fcb-9495fe195b1b
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 0WXz3PJQnr-KprrwiO5BlKVRdqA4ZS6U5jGHc_aeJnw
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  servername: wom.co
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇷 BR 01 - xiaohe
+  - 🇱🇰 LK 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇷 BR 01 - xiaohe
+  - 🇱🇰 LK 01 - xiaohe
 rules:
 - MATCH,PROXIES
