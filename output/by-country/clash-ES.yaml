@@ -17,13 +17,6 @@ proxies:
   servername: www.apple.com
   client-fingerprint: firefox
 - name: 🇪🇸 西班牙 (Spain) 02 - xiaohe
-  type: ss
-  server: 108.181.121.226
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 03 - xiaohe
   type: vmess
   server: 66.163.118.73
   port: 22324
@@ -33,6 +26,13 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇪🇸 西班牙 (Spain) 03 - xiaohe
+  type: ss
+  server: 108.181.121.226
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: WSyL4XTwNsdv
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
