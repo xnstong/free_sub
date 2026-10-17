@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  type: vless
-  server: s3-ge.videocdnpink.video
-  port: 443
-  uuid: b3a7fe26-2ea7-4aa1-ba7a-8ef37a1a71c5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: s3-ge.videocdnpink.video
-  network: ws
-  ws-opts:
-    path: /api/53d53ac3/a7fa61/096357bebc62
-    headers:
-      Host: s3-ge.videocdnpink.video
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: ss
   server: 130.49.189.158
   port: 43558
@@ -31,13 +17,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
 rules:
 - MATCH,PROXIES
