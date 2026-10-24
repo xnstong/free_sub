@@ -43,7 +43,20 @@ proxies:
   ws-opts:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: ty986gfazs.cainiaohub.xyz
+      Host: 103.180.20.108
+- name: 🇹🇷 土耳其 (Turkey) 04 (家宽) - xiaohe
+  type: vless
+  server: 66.235.200.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime47.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -52,6 +65,7 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -60,5 +74,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
