@@ -12,12 +12,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bhjolq0d0l.flowersgood.top
+  servername: nguyxejonb.flowersgood.top
   network: ws
   ws-opts:
-    path: /service/telemetry/045d381f1166/
+    path: /service/telemetry/0294da469190/
     headers:
-      Host: bhjolq0d0l.flowersgood.top
+      Host: nguyxejonb.flowersgood.top
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: ss
   server: 185.22.153.117
