@@ -6,18 +6,13 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 185.178.208.167
+  server: 136.148.83.69
   port: 443
-  uuid: ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: unlik.club
-  network: ws
-  ws-opts:
-    path: /static/telemetry/3c9aaef00005/
-    headers:
-      Host: tochkacdn.top
+  servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
   server: 136.148.83.69
@@ -28,14 +23,12 @@ proxies:
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  type: vless
-  server: 136.148.83.69
-  port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   type: vless
   server: 147.45.175.81
