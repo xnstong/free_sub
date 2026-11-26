@@ -4,31 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇪🇪 EE 01 - xiaohe
+- name: 🇻🇳 VN 01 - xiaohe
   type: vless
-  server: 188.214.37.231
-  port: 443
-  uuid: 83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e
+  server: 150.95.109.109
+  port: 2086
+  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lagoon.gerqix.online
-  network: ws
-  ws-opts:
-    path: /api/de5/stream
-    headers:
-      Host: lagoon.gerqix.online
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇪🇪 EE 01 - xiaohe
+  - 🇻🇳 VN 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇪🇪 EE 01 - xiaohe
+  - 🇻🇳 VN 01 - xiaohe
 rules:
 - MATCH,PROXIES
